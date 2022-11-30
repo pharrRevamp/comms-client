@@ -40,7 +40,7 @@ function JPandRecruit() {
               <h3>View Available Jobs</h3>
               <button><a href="http://pharr-tx.gov/jobs/" target="_blank" rel="noreferrer">Job Postings</a></button>
               <h3>View our Job Descriptions</h3>
-              <button><a href="#" target="_blank" noreferrer>Job Descriptions</a></button>
+              <button><a href="#" target="_blank" rel="noreferrer">Job Descriptions</a></button>
           </div>
     </div>
   )
