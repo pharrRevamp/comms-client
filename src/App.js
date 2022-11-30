@@ -30,8 +30,8 @@ function App() {
             <Route path="/next-generation-911" element={<NextGen />} />
             <Route path="*" element={<ErrorPage />} />
           </Routes>
+          <Footer />
         </Router>
-        <Footer />
       </Suspense>
     </div>
   );
