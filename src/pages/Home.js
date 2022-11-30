@@ -3,7 +3,9 @@ import React from 'react'
 function Home (){
   return (
     <div className="home">
-        <img src="" alt="banner"/>
+        <div className='homeBanner'>
+          <img src="" alt="banner"/>
+        </div>        
         <div className='missionStatement'>
             <h2>Mission Statement</h2>
             <p>The mission of The City of Pharr's Public Safety Communications Department is to protect, serve and educate. 

@@ -6,4 +6,4 @@ function CommunityEvent() {
   )
 }
 
-export default CommunityEvent
+export default CommunityEvent;
