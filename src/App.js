@@ -10,6 +10,7 @@ const Home = lazy(() => import("./pages/Home"));
 const JPandRecruit = lazy(() => import("./pages/JPandRecruit"));
 const NextGen = lazy(() => import("./pages/NextGen"));
 const Footer = lazy(() => import("./components/Footer"));
+const Login = lazy(() => import("./pages/private/Login"));
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             />
             <Route path="/next-generation-911" element={<NextGen />} />
             <Route path="*" element={<ErrorPage />} />
+            <Route path="/login" element={<Login />}/>
           </Routes>
           <Footer />
         </Router>

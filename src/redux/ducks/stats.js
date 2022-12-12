@@ -44,7 +44,7 @@ const kpiDataMemory = createSlice({
       pctCriteria: "",
       pctStaffCert: "",
       pctCertObtained: "",
-    },
+    },    
     dataAll: [],
     dataRecent: [],
   },
@@ -64,7 +64,7 @@ const kpiDataMemory = createSlice({
         ...state.kpiInputs,
         [input.dataKey]: [input.dataInput],
       };
-    },
+    },    
   },
   extraReducers: builder => {
     builder.addCase(kpiAll.pending, state => {
@@ -103,5 +103,5 @@ const kpiDataMemory = createSlice({
   },
 });
 
-export const { resetMemory, inputHandler } = kpiDataMemory.actions;
+export const { resetMemory, inputHandler} = kpiDataMemory.actions;
 export default kpiDataMemory.reducer;
